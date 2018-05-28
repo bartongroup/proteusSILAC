@@ -1,0 +1,11 @@
+Package: proteusSILAC
+Type: Package
+Title: Example SILAC data set for proteus package
+Version: 0.1.0
+Author: Marek Gierlinski
+Maintainer: Marek Gierlinski <M.Gierlinski@dundee.ac.uk>
+Description: Example SILAC data set for proteus package
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

@@ -1,0 +1,7 @@
+experiment	measure	sample	condition	replicate
+LM_VEHvsOHT_T01_R1	ratio_ml	T01_R1	T01	1
+LM_VEHvsOHT_T01_R2	ratio_ml	T01_R2	T01	2
+LM_VEHvsOHT_T01_R3	ratio_ml	T01_R3	T01	3
+LM_VEHvsOHT_T48_R1	ratio_ml	T48_R1	T48	1
+LM_VEHvsOHT_T48_R2	ratio_ml	T48_R2	T48	2
+LM_VEHvsOHT_T48_R3	ratio_ml	T48_R3	T48	3
