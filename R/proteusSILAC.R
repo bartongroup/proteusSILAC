@@ -1,8 +1,9 @@
 #' @title Proteus example SILAC data
 #' @name proteusSILAC
 #' @docType data
-#' @description Example data set for \code{proteus} package. It comes from a SILAC MS/MS experiment in two time points
-#' and three replicates each.
+#' @description Example SILAC data set for \code{proteus} package. It is a small subset of
+#' OHT-vs-VEH comparison from Ly et al. 2018 (https://wellcomeopenresearch.org/articles/3-51/).
+#' This data set contains two time points in three replicates each.
 #'
 #' @format Four objects from different stages of data processing:
 #' \describe{
@@ -11,16 +12,17 @@
 #'   \item{\code{pepdat}}{Peptide data (\code{proteusData} object)}
 #'   \item{\code{prodat}}{Protein data (\code{proteusData} object)}
 #' }
-#' This package also contains the full original evidence file and formatted metadata file (see examples below).
+#'
+#' This package also contains metadata file (see examples below). The original evidence file is not included due to large size.
 #'
 #' @examples
+#' library(proteusSILAC)
 #' data(proteusSILAC)
 #' meta
 #' head(pepdat$tab)
 #' head(prodat$tab)
 #'
-#' evidenceFile <- system.file("extdata", "evidence.txt.gz", package="proteusTMT")
-#' metadataFile <- system.file("extdata", "metadata.txt", package="proteusTMT")
+#' metadataFile <- system.file("extdata", "metadata.txt", package="proteusSILAC")
 #"proteusSILAC"
 NULL
 

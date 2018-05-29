@@ -4,7 +4,7 @@ Title: Example SILAC data set for proteus package
 Version: 0.1.0
 Author: Marek Gierlinski
 Maintainer: Marek Gierlinski <M.Gierlinski@dundee.ac.uk>
-Description: Example SILAC data set for proteus package
+Description: Example SILAC data set for proteus package. A small subset of data from https://wellcomeopenresearch.org/articles/3-51/.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
